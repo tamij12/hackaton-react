@@ -1,11 +1,15 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 import './fonts.css';
 import './style.css';
 import App from './App.jsx';
 
-const root = document.createElement('div');
-document.body.appendChild(root);
 
-render(<App />, root);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
