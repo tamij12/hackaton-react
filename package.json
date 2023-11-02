@@ -2,7 +2,7 @@
   "name": "hackathon",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "",
+  "license": "ISC",
   "scripts": {
     "start": "serve dist -s",
     "build-css": "tailwindcss build node_modules/tailwindcss/tailwind.css -o src/style.css",
@@ -47,5 +47,7 @@
   },
   "prettier": {
     "singleQuote": true
-  }
+  },
+  "description": "React + Tailwind CSS + Webpack 5 Boilerplate ===",
+  "author": ""
 }
