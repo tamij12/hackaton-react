@@ -1,5 +1,5 @@
 import { MdSearch } from "react-icons/md";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Search = ({ notes, handleSearchNote, handleTagFilter }) => {
   const [showTags, setShowTags] = useState(false);

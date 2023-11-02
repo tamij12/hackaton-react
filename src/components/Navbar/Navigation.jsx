@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import { cn } from '@/utils.js';
-import LogoIcon from '@/assets/favicon.svg';
-import routes from '@/routes.jsx';
-import MenuItem from '@/components/MenuItem.jsx';
-import HamburgerIcon from '@/assets/hero-icon-menu.svg';
-import CLoseIcon from '@/assets/hero-icon-x.svg';
+import { cn } from '../../utils.js';
+import LogoIcon from '../../assets/favicon.svg';
+import routes from '../../routes.jsx';
+import MenuItem from '../../components/Navbar/MenuItem.jsx';
+import HamburgerIcon from '../../assets/hero-icon-menu.svg';
+import CLoseIcon from '../../assets/hero-icon-x.svg';
 
 const Navigation = () => {
   const [toggle, setToggle] = useState(false);

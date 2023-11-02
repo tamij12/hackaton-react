@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { cn } from '@/utils.js';
+import { cn } from '../../utils.js';
 
 const MenuItem = ({ className, children, ...props }) => (
   <NavLink

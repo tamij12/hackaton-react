@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { nanoid } from "nanoid";
-import NotesList from "./components/NotesList";
-import Search from "./components/Search";
+import NotesList from "../components/NoteList/NotesList";
+import Search from "../components/SearchBar/Search";
 import Header from "./components/Header";
 
 const Posts = () => {
